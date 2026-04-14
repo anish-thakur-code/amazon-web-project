@@ -16,7 +16,10 @@ app.use(express.json());
 
 // Enable CORS
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: [
+    "http://localhost:3000",
+    "https://amazon-web-project-pq64wmday-anish5.vercel.app"
+  ],
   credentials: true,
 }));
 
