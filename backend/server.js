@@ -18,7 +18,9 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://amazon-web-project-pq64wmday-anish5.vercel.app"
+    "https://amazon-web-project.vercel.app",
+    "https://amazon-web-project-pq64wmday-anish5.vercel.app",
+    "https://amazon-web-project-njbovi0ve-anish5.vercel.app"  // ✅ NEW
   ],
   credentials: true,
 }));
